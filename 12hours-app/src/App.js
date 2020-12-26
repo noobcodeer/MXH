@@ -1,6 +1,8 @@
 import React from "react";
 import './App.css';
 import Header from "./Header";
+import HourCards from "./HourCards";
+import SwipeButtons from "./SwipeButtons"
 
 
 function App() {
@@ -8,10 +10,11 @@ function App() {
     <div className="App">
       
       {/*Header*/}
-      <Header />
-      {/*Tindercards*/}
+      <Header /> 
+      {/*App12hourscards*/}
+      <HourCards />
       {/*SwipeButtons */}
-    
+      <SwipeButtons />
     </div>
   );
 }
